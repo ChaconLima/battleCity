@@ -11,7 +11,20 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+mix
+.styles(
+    [
+        'resources/views/batlleCity/css/style.css',
+    ],
+    'public/batlleCity/css/style.css'
+)
+.scripts(
+    [
+        'resources/views/batlleCity/js/information.js',
+        'resources/views/batlleCity/js/class.js',
+        'resources/views/batlleCity/js/script.js',
+        'resources/views/batlleCity/js/controlles.js',
+    ],
+    'public/batlleCity/js/scripts.js'
+)        
+.version();
