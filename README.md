@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/data/sprite/battlecity-800x445.jpg" width="400"></a></p>
+<p align="center"><a href="" target="_blank"><img src="https://i.ytimg.com/vi/fcJjPUOcKk0/maxresdefault.jpg" width="400"></a></p>
 
 
 
