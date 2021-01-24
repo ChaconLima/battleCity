@@ -55,56 +55,54 @@ const lvl = [
     [0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,5,5,0,0,4,4,0,0]
 ]
 const serario_sprites = 
-[
-    {spriteX:0,spriteY:336},
-    {spriteX:0,spriteY:256},
-    {spriteX:0,spriteY:272},
-    {spriteX:0,spriteY:288},
-    {spriteX:0,spriteY:304},
-    {spriteX:0,spriteY:320},
-    {spriteX:0,spriteY:336}
-]
+{
+    '0':{spriteX:0,spriteY:336},
+    '1':{spriteX:0,spriteY:256},
+    '2':{spriteX:0,spriteY:272},
+    '3':{spriteX:0,spriteY:288},
+    '4':{spriteX:0,spriteY:304},
+    '5':{spriteX:0,spriteY:320},
+    '6':{spriteX:0,spriteY:336}
+}
 const tankes_sprites = 
 {
-    tank_0:[
-        [
-            {spriteX:0,spriteY:0},
-            {spriteX:0,spriteY:32},
-            {spriteX:0,spriteY:64},
-            {spriteX:0,spriteY:96}
-        ],
-        [
-            {spriteX:32,spriteY:0},
-            {spriteX:32,spriteY:256},
-            {spriteX:32,spriteY:256},
-            {spriteX:32,spriteY:256}
-        ]
-    ]
-}
-
-const tankes_playes =
-{
-    player_1:
-    [
+    tanks:
+    {
+        'tank_0':
         {
-            spriteTanke:'tank_0',
-            positonX: 0 ,
-            positonY: 0,
-            movemen:false, 
-            firing:false,
-        }
-    ],
-    player_2:
-    [
+            'first':
+            {
+                'up': {spriteX:0,spriteY:0},
+                'right': {spriteX:0,spriteY:32},
+                'down': {spriteX:0,spriteY:64},
+                'left': {spriteX:0,spriteY:96}
+            },
+            'second':  
+            {
+                'up':{spriteX:32,spriteY:0},
+                'right':{spriteX:32,spriteY:256},
+                'down':{spriteX:32,spriteY:256},
+                'left':{spriteX:32,spriteY:256}
+            }
+        },
+        'tank_1':
         {
-            spriteTanke:'tank_0',
-            positonX: 100,
-            positonY: 100,
-            movemen:true, 
-            firing:false,
+            'first':
+            {
+                'up': {spriteX:0,spriteY:0},
+                'right': {spriteX:0,spriteY:32},
+                'down': {spriteX:0,spriteY:64},
+                'left': {spriteX:0,spriteY:96}
+            },
+            'second':  
+            {
+                'up':{spriteX:32,spriteY:0},
+                'right':{spriteX:32,spriteY:256},
+                'down':{spriteX:32,spriteY:256},
+                'left':{spriteX:32,spriteY:256}
+            }
         }
-    ],
-
+    }
 }
-console.log(tankes_sprites);
-console.log(tankes_playes);
+// console.log(tankes_sprites);
+// console.log(dataGame);

@@ -21,9 +21,9 @@ mix
 .scripts(
     [
         'resources/views/batlleCity/js/information.js',
-        'resources/views/batlleCity/js/class.js',
-        'resources/views/batlleCity/js/script.js',
-        'resources/views/batlleCity/js/controlles.js',
+        'resources/views/batlleCity/js/classGame.js',
+        'resources/views/batlleCity/js/controllerGame.js',
+        'resources/views/batlleCity/js/renderGame.js',
     ],
     'public/batlleCity/js/scripts.js'
 )        
